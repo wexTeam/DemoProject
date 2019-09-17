@@ -1,4 +1,9 @@
 <?php
-function FindShape(){
-echo "Circle...";
+function CreateShape($name){
+    if($name == "circle"){
+        return 'circle';
+    }
+
 }
+
+CreateShape('circle');
